@@ -1,0 +1,71 @@
+.site-header {
+    background-color: rgb(242, 206, 218, 30%);
+    width: 100vw;
+    
+}
+.header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.header__logo-link {
+    display: inline-block;
+}
+.header__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 40px;
+}
+.header__link {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    text-align: left;
+    color: #150101;
+    opacity: 0.6;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s; 
+}
+.header__link:hover {
+    color: var(--clr-pink);
+}
+.header__btn {
+    padding: 14px 50px 13px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    background-color: var(--clr-pink);
+    font-family: "Hind Madurai",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.08px;
+    color: #FAFAFA;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.header__btn:hover{
+    background-color: #FAFAFA;
+    color: var(--clr-pink);
+    border-color: var(--clr-pink);
+    -webkit-box-shadow: 0 0 15px rgba(255, 0, 183, 0.8);
+    box-shadow: 0 0 15px rgba(255, 0, 183, 0.8);
+}
+.header__btn:active{
+    background-color: #FAFAFA;
+    color: var(--clr-pink);
+    border-color: var(--clr-pink);
+    transform: scale(0.85);
+}

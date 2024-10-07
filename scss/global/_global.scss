@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Roboto", sans-serif;
+    font-family: "Hind Madurai", sans-serif;
+    font-family: "Fredoka", sans-serif;
+}
+
+.container {
+    width: 1125px;
+    margin: 0 auto;
+}
+
+:root {
+    --clr-pink: #D23166;
+}

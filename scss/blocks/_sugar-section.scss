@@ -1,0 +1,57 @@
+.sugar-section {
+    background-color: rgb(242, 206, 218, 30%);
+    margin-bottom: 100px;
+}
+.sugar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.sugar__content-wrapper > h2 {
+    font-family: Hind Madurai;
+    font-size: 51.2px;
+    font-weight: 600;
+    line-height: 48.84px;
+    color: #150101;
+    margin-bottom: 16px;
+}
+.sugar__content-wrapper > p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #150101;
+    opacity: 0.6;
+    margin-bottom: 35px;
+}
+.sugar__content-wrapper > button {
+    padding: 15px 42px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    background-color: #D64374;
+    font-family: Hind Madurai;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.08px;
+    color: #FAFAFA;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.sugar__content-wrapper > button:hover {
+    background-color: #FAFAFA;
+    color: #D64374;
+    border-color: #D64374;
+    -webkit-box-shadow: 0 0 15px rgba(255, 0, 183, 0.8);
+    box-shadow: 0 0 15px rgba(255, 0, 183, 0.8);
+}
+.sugar__content-wrapper > button:active {
+    background-color: #FAFAFA;
+    color: #D64374;
+    border-color: #D64374;
+    transform: scale(0.85);
+}

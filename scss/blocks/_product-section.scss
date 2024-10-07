@@ -1,0 +1,218 @@
+.product-section {
+    margin-bottom: 100px;
+}
+.product {
+    margin-bottom: 117px;
+}
+.product__title {
+    font-family: Hind Madurai;
+    font-size: 44.2px;
+    font-weight: 600;
+    line-height: 61px;
+    color: #150101;
+    text-align: center;
+    margin-bottom: 64px;
+}
+.product__list {
+    width: 896px;
+    text-align: center;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+.product__link {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.09px;
+    text-align: left;
+    color: #000000;
+    opacity: 0.6;
+    border: 3px solid transparent;
+}
+.product__link:hover {
+    opacity: 1;
+    border-bottom-color: #D64374;
+}
+.product__link:active {
+    opacity: 1;
+    border-bottom-color: #D64374;
+    transform: scale(0.85);
+}
+.product__brown {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 85px;
+    margin-bottom: 30px;
+}
+.product__brown-wrapper > h3 {
+    font-family: Hind Madurai;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 35.88px;
+    margin-bottom: 11px;
+}
+.product__brown-wrapper > p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.7;
+    margin-bottom: 28px;
+}
+.product__bread {
+    margin-bottom: 10px;
+}
+.product__bread > strong {
+    font-family: Hind Madurai;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 35.88px;
+    margin-right: 5px;
+}
+.product__bread > b {
+    font-family: Hind Madurai;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27.6px;
+    opacity: 0.7;
+    text-decoration: line-through;
+}
+.product__cayenne {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 84px;
+    margin-bottom: 35px;
+}
+.product__cayenne-wrapper > h3 {
+    font-family: Hind Madurai;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 35.88px;
+    text-align: right;  
+    margin-bottom: 11px;  
+}
+.product__cayenne-wrapper > p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: right;
+    opacity: 0.7;
+    margin-bottom: 28px;
+}
+.product__chocolate {
+    margin-bottom: 9px;
+    text-align: right;
+}
+.product__chocolate > strong {
+    font-family: Hind Madurai;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 35.88px;
+    text-align: right;  
+    margin-right: 5px;  
+}
+.product__chocolate > b {
+    font-family: Hind Madurai;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27.6px;
+    text-align: right;
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+.product__cayenne-wrapper > button {
+    display: block;
+    margin-left: auto;
+}
+.product__addition {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.product__text-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 10px;
+}
+.product__text-icon > p {
+    width: 322px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.7;
+    margin-bottom: 56px;
+}
+.product__adele-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 11px;
+    margin-bottom: 46px;
+}
+.product__amirican > strong {
+    display: block;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.13px;
+    margin-bottom: 5px;
+}
+.product__amirican > p {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.06px;
+    opacity: 0.7;
+}
+.product__images {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 27px;
+}
+.product__images-link {
+    color: var(--clr-pink);
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.product__images-link:hover {
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+    color: #ca1954; 
+}
+.product__images-middll {
+    border: 1px solid #D64374;
+    border-radius: 50%;
+}
